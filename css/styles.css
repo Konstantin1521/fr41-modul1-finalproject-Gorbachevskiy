@@ -8,18 +8,25 @@ html{
 *::after,
 *::before{
     box-sizing: inherit;
+    font-family: Montserrat;
+    border: none;
 }
 
 body{
     padding: 0;
     margin: 0;
-    font-family: Montserrat;
+   
 }
 
 a{
     text-decoration: none;
     color: black;
 }
+
+li{
+    list-style-type: none;
+}
+
 .container{
     max-width: 1440px;
     padding-left: 120px;
@@ -45,10 +52,6 @@ header{
     gap: 30px;
 }
 
-.menu__list-item{
-    list-style-type: none;
-}
-
 .menu__list-link{
     font-size: 14px;
     font-style: normal;
@@ -66,6 +69,12 @@ header{
     background: #E3F5F5;
     border: none;
     cursor: pointer;
+    color: #03B2A5;
+    text-align: center;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .menu__list-link_img{
@@ -80,15 +89,120 @@ header{
     width: 14px;
     height: 14px;
     top: 3px;
+}
 
-
+footer{
+    background-color: #2963A3;
 }
 
 .footer_inner{
+    
     display: flex;
-    background-color: #2963A3;
     height: 302px;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 
+}
+
+.nav_footer, .footet__feedback-elemet, .social__network{
+    margin-top: 40px;
+}
+
+.nav_footer{
+    display: flex;
+    gap: 93px;
+}
+
+.footer__list-one, .footer__list-two{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding:0;
+    margin:0
+}
+
+.footer__list-link{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.footer__heading-elemet{
+    width: 356px;
+    height: 52px;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px
+}
+
+.footer__input{
+    width: 384px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid rgba(157, 157, 157, 0.20);
+    background: #FFF;
+    position: absolute;
+}
+
+.footer__btn{
+    display: inline-flex;
+    height: 48px;
+    padding: 14px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #16C8BB;
+    border: none;
+    position: relative;
+    right: -319px;
+    cursor: pointer;
+}
+
+.footer__poragraf{
+    width: 486px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 18px; 
+    letter-spacing: 0.25px;
+    opacity: 0.7;
+}
+
+.social__network{
+    width: 221px;
+    height: 122px;
+}
+
+.logo__footer{
+    margin-bottom: 40px;
+}
+
+.sociak__network-ul{
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+}
+
+.social__network-items{
+    width: 32px;
+    height: 32px;
+    border-radius: 60px;
+    background: #EFF5FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icons{
+    width: 20px;
+    height: 12px;
+}
+
+.social__icons-dzen{
+    width: 32px;
+    height: 32px;
 }
