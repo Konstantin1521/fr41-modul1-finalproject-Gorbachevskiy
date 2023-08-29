@@ -1,0 +1,8 @@
+@media screen and (max-device-width: 1024px)  {
+    .container{
+        max-width: 1024px;
+        padding-left: 36px;
+        padding-right: 36px;
+    }
+    
+}
