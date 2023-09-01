@@ -70,7 +70,7 @@ header{
 
 .btn{
     padding: 14px 20px;
-    gap: 10px;
+    /* gap: 10px; */
     border-radius: 4px;
     background: #E3F5F5;
     border: none;
@@ -81,6 +81,10 @@ header{
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
+}
+
+.menu__img{
+    display: none;
 }
 
 .menu__list-link_img{
@@ -121,10 +125,12 @@ header{
 
 .categories__artic_elements, .categories__artic_elements-color{
     display: flex;
+    align-items: center;
     border-radius: 24px;
     border: 1px solid #C1C5CD;
-    padding: 8px 6px;
-    gap: 4px;
+    padding: 6px 8px;
+    column-gap: 4px;
+    white-space: nowrap;
 }
 
 .categories__articles_links{
@@ -141,8 +147,8 @@ header{
 }
 
 .categories__articles_links-img, .categories__articles_links-img_poni{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     padding: 1px;
     justify-content: center;
 }
@@ -155,10 +161,11 @@ header{
 
 .main__hero_one-two__elements{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
 }
 
-.main__hero-img_eggs, .main__hero-img_runner{
+.main__hero-img_blog1{
     border-radius:15px 15px 0 0;
     position: relative;
 }
@@ -179,6 +186,15 @@ header{
     margin-bottom: 4px;
 }
 
+.main__hero_one, .main__hero_one_blog2, .main__hero_one_blog3{
+    fill: #FFF;
+    stroke-width: 1px;
+    stroke: #DEDEDE;
+    border: 1px solid #9D9D9D;
+    border-radius: 15px;
+    margin: 26px 0 0 0;
+}
+
 .text_one{
     margin: 0 16px;
     margin-bottom: 8px;
@@ -196,11 +212,17 @@ header{
     margin-bottom: 16px;
 }
 
+.text_date_blog-two-three{
+    margin: 0 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
 
 .tag{
     gap: 4px;
     position: absolute;
-    top: 276px;
+    top: 295px;
     margin-left: 8px;
 } 
 
@@ -242,9 +264,20 @@ header{
     gap: 24px;
 }
 
+.maint__hero-card_one-block1, .maint__hero-card_two-block1{
+    max-width: 588px;
+    max-height: 240px;
+}
+
+.maint__hero-card_one-block2, .maint__hero-card_one-block2, .maint__hero-card_one-block2{
+    max-width: 384px;
+    max-height: 216px;
+}
+
 .main__hero_one_blog2, .main__hero_two_blog2, .main__hero_three_blog3{
     display: grid;
     grid-template-rows: 1fr 1fr;
+    gap: 24px
 }
 
 .text_date_blog{
@@ -256,14 +289,14 @@ header{
 .tag-2{
     gap: 4px;
     position: absolute;
-    top: 809px;
+    top: 845px;
     margin-left: 8px;
 }
 
 .tag-3{
     gap: 4px;
     position: absolute;
-    top: 1332px;
+    top: 1415px;
     margin-left: 8px;
 }
 
@@ -294,7 +327,6 @@ footer{
     min-height: 302px;
     justify-content: space-between;
     align-items: start;
-    
 
 }
 
@@ -366,11 +398,13 @@ footer{
 }
 
 .social__network{
-    width: 221px;
+    display: flex;
+    flex-direction: column;
     max-height: 122px;
 }
 
 .logo__footer{
+ 
     margin-bottom: 40px;
 }
 
@@ -379,6 +413,7 @@ footer{
     align-items: flex-start;
     padding: 0;
     gap: 16px;
+    margin-top: 40px;
 }
 
 .social__network-items{
@@ -405,10 +440,6 @@ footer{
     display: flex;
     gap: 48px;
     border-top: 1px solid #9D9D9D;
-}
-
-.footer__info{
-    
 }
 
 .footer__info-text{
