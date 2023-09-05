@@ -165,7 +165,7 @@ header{
     gap: 24px;
 }
 
-.main__hero-img_blog1{
+.main__hero-img_blog1, .img__block2, .img__block2-3{
     border-radius:15px 15px 0 0;
     position: relative;
 }
@@ -356,8 +356,8 @@ footer{
 }
 
 .footer__heading-elemet{
-    width: 356px;
-    height: 52px;
+    max-width: 356px;
+    max-height: 52px;
     color: #FFF;
     font-size: 18px;
     font-weight: 700;
@@ -388,13 +388,14 @@ footer{
 }
 
 .footer__poragraf{
-    width: 486px;
+    max-width: 486px;
     color: #FFF;
     font-size: 12px;
     font-style: normal;
     line-height: 18px; 
     letter-spacing: 0.25px;
     opacity: 0.7;
+    margin-top: 10px;
 }
 
 .social__network{
