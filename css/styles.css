@@ -170,9 +170,10 @@ header{
     position: relative;
 }
 
-.main__hero_one, .main__hero_two{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
+.main__hero_one, .main__hero_one_blog2, .main__hero_one_blog3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
 
 .maint__hero-card_one-header, .maint__hero-card_two-header{
@@ -182,7 +183,6 @@ header{
     font-weight: 700;
     line-height: 26px;
     margin: 0 16px;
-    margin-top: 16px ;
     margin-bottom: 4px;
 }
 
@@ -193,6 +193,10 @@ header{
     border: 1px solid #9D9D9D;
     border-radius: 15px;
     margin: 26px 0 0 0;
+}
+
+.main__hero_one_blog3{
+    margin: 0;
 }
 
 .text_one{
@@ -206,7 +210,7 @@ header{
 }
 
 
-.text_date{
+.text_date-one{
     margin: 0 16px;
     margin-top: 96px;
     margin-bottom: 16px;
@@ -214,37 +218,32 @@ header{
 
 .text_date_blog-two-three{
     margin: 0 16px;
-    margin-top: 24px;
+    /* margin-top: 24px; */
     margin-bottom: 16px;
 }
 
 
-.tag{
-    gap: 4px;
-    position: absolute;
-    top: 295px;
-    margin-left: 8px;
-} 
-
-.tag-item, .tag-item-2, .tag-item-3{
-    display: flex;
-    padding: 6px 8px;
-    align-items: flex-start;
-    gap: 4px;
-    border-radius: 24px;
-    border: 1px solid #C1C5CD;
-    background: rgba(255, 255, 255, 0.70);
+.main__hero_one, .main__hero_one_blog2, .main__hero_one_blog3{
+    position: relative;
 }
 
-.tag-item-self, .tag-item-self-2{
-    width: 75px;
+.qqqwww_one, .qqqwww_two{
     display: flex;
+    position: absolute;
+    top: 8px;
+    left: 8px;
     padding: 6px 8px;
     align-items: flex-start;
-    gap: 4px;
+    gap: 8px;
     border-radius: 24px;
     border: 1px solid #C1C5CD;
     background: rgba(255, 255, 255, 0.70);
+    gap: 8px;
+}
+
+.qqqwww_two{
+    top: 40px;
+    left: 0px;
 }
 
 .tag__img, .tag__img-2, .tag__img-3{
@@ -254,7 +253,7 @@ header{
     padding: 1px;
     justify-content: center;
     align-items: center;
-}
+} 
 
 /* стили второго и третьего блока */
 
@@ -269,35 +268,15 @@ header{
     max-height: 240px;
 }
 
-.maint__hero-card_one-block2, .maint__hero-card_one-block2, .maint__hero-card_one-block2{
-    max-width: 384px;
-    max-height: 216px;
-}
-
-.main__hero_one_blog2, .main__hero_two_blog2, .main__hero_three_blog3{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    gap: 24px
+.maint__hero-card_one-block2{
+    width: 384px;
+    height: 216px;
 }
 
 .text_date_blog{
     margin: 0 16px;
     margin-top: 18px;
     margin-bottom: 16px;
-}
-
-.tag-2{
-    gap: 4px;
-    position: absolute;
-    top: 845px;
-    margin-left: 8px;
-}
-
-.tag-3{
-    gap: 4px;
-    position: absolute;
-    top: 1415px;
-    margin-left: 8px;
 }
 
 .btn_cont{

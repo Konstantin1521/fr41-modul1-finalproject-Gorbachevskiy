@@ -28,12 +28,13 @@
         line-height: 20px
     }
 
-    .main__hero-img_blog1{
-        width: 468px;
+    .maint__hero-card_one-block2{
+        width: 304px;
+        height: 253px;
     }
 
-    .main__hero_one{
-        height: 587px;
+    .main__hero-img_blog1{
+        width: 468px;
     }
 
     .text_date{
@@ -102,7 +103,10 @@
 
     .main__hero-img_blog1{
         width: 728px;
-        
+    }
+
+    .main__hero_one_blog2{
+        margin: 0;
     }
 
     .maint__hero-card{
@@ -122,6 +126,10 @@
 
     .main__hero_one_blog2, .main__hero_one_blog3, .img__block2, .img__block2-3{
         width: 352px;
+    }
+
+    .text_date-one{
+        margin: 10px 16px;
     }
 
     .footer_inner{
@@ -188,10 +196,16 @@
 
     .main__hero-img_blog1, .main__hero_one_blog2{
         width: 374px;
+ 
+    }
+
+    .main__hero-img_blog1{
+        height: 206px;
     }
 
     .main__hero_one_blog3, .img__block2, .img__block2-3{
         width: 374px;
+        height: 206px;
     }
 
     .block2-3{
@@ -255,6 +269,18 @@
        
     }
 
+    .main__hero-img_blog1, .img__block2{
+        width: 288px;
+        height: 206px;
+    }
+
+    .qqq{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
     .main__hero_one, .main__hero_one_blog2{
         display: block;
         height: 480px;
@@ -262,6 +288,11 @@
 
     .maint__hero-card_one-header{
         line-height: 20px;
+    }
+
+    .qqqwww_two{
+        top: 40px;
+        left: 0px;
     }
 
     .footer__heading-elemet{
