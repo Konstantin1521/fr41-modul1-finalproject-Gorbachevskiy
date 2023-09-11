@@ -19,6 +19,8 @@
    }
 
    .main__leaner{
+    justify-content: center;
+    align-items: center;
     width: 714px;
    }
 
@@ -99,6 +101,148 @@
 
 /* iPad mini - 2 */
 @media screen and (max-device-width: 768px)  {
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 76px 1fr 841px 454px;
+        grid-template-areas: "header  header"
+                             "main main"
+                             "aside aside"
+                             "footer footer";
+    }
+
+    .container, .main_linner{
+        max-width: 728px;
+        /* padding: 0 20px; */
+    }
+
+    .header__inner{
+        margin:0 auto;
+    }
+
+    .menu__list-item, .btn{
+        display: none;
+    }
+
+    .menu__img{
+        display: block;
+    }
+
+    .main{
+        width: 728px;
+    }
+
+    .main__leaner{
+        display: flex;
+        width: 728px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .linear__aside{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        padding: 0 32px;
+        margin: 0;
+    }
+
+
+    .aside__block-one{
+        width: 356px;
+        height: 481px;
+        margin: 0;
+    }
+
+    .aside__block-img_one{
+        top: 60px;
+        left: 120px;
+    }
+    .aside__block-img_two{
+        top: 24px;
+        left: 130px;
+        padding: 0 12.5px;
+    
+    }
+    
+    .aside__block-img_three{
+        left:  90px;
+        top: 50px;
+    }
+
+    .aside__block-two{
+        display: flex;
+        width: 355px;
+        height: 481px;
+        padding: 24px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .aside__block_three{
+        width: 356px;
+        height: 248px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .aside__block_three-img{
+        align-self: start;
+        width: 281px;
+        height: 192px;
+    }
+
+    .one{
+        width: 170px;
+        height: 92px;
+        top: 20px;
+    }
+    .two{
+        top: 47px;
+        width: 90px;
+        height: 65px;
+    }
+    .three{
+        top: 0;
+    }
+
+    .aside__block_four{
+        width: 356px;
+        height: 248px;
+    }
+
+    .footer__main-elemet{
+        padding: 20px;
+	
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+		grid-column-gap: 31px;
+    }
+
+    .footer__poragraf{
+        width: 400px;
+    }
+
+    .logo__footer{
+        align-self: start;
+        padding-top: 24px;
+    }
+
+    .footet__feedback-elemet{
+        width: 400px;
+    }
+
+    .footer__poragraf{
+        flex-wrap: wrap;
+    }
+
+    .footer__info{
+        margin-top: 15px;
+    }
     
 }
 
@@ -107,7 +251,66 @@
 
 /* iPhone 11 Pro Max - 2 */
 @media screen and (max-device-width: 414px)  {
-    
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 76px 1fr 841px 746px;
+        grid-template-areas: "header  header"
+                             "main main"
+                             "aside aside"
+                             "footer footer";
+    }
+
+    .container, .main_linner{
+        max-width: 374px;
+        padding: 0 20px;
+    }
+
+    .table_of_contenrs{
+        display: flex;
+        width: 374px;
+        align-items: flex-start;
+        gap: 8px;
+
+        font-family: Montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+        letter-spacing: 0.25px;
+    }
+
+    .header__inner{
+        margin:0 auto;
+    }
+
+    .menu__list-item, .btn{
+        display: none;
+    }
+
+    .menu__img{
+        display: block;
+    }
+
+    .main{
+        width: 374px;
+    }
+
+    .main__leaner{
+        display: flex;
+        width: 374px;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .linear__aside{
+        display: grid;
+        grid-template-columns: 1fr;
+
+        padding: 0 20px;
+        margin: 0;
+    }
 }
 
 

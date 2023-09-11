@@ -54,17 +54,6 @@
     .nav_footer{
         gap: 30px;
     }
-    .tag{
-        top: 337px;
-    }
-
-    .tag-2{
-        top: 845px;
-    }
-
-    .tag-3{
-        top: 1470px;
-    }
 }
 
 
@@ -160,18 +149,6 @@
         /* margin-top: 40px; */
         margin-bottom: 26px;
 
-    }
-
-    .tag{
-        display: none;
-    }
-
-    .tag-2{
-        display: none;
-    }
-
-    .tag-3{
-        display: none;
     }
 }
 
