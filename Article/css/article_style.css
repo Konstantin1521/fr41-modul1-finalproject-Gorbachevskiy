@@ -154,6 +154,14 @@ header{
     margin-bottom: 24px;
 }
 
+.main__text-dot_one, .main__text-one{
+    display: none;
+}
+
+.main__text-one{
+    color: #2963A3;
+}
+
 .content__header{
     font-family: Montserrat;
     font-size: 16px;

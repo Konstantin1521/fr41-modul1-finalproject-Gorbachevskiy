@@ -24,6 +24,10 @@
     width: 714px;
    }
 
+   .main__text-dot_one, .main__text-one{
+    display: block;
+}
+
    .aside__block-one, .aside__block-two, .aside__block_three, .aside__block_four{
         width: 222px;
    }
