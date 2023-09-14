@@ -34,6 +34,10 @@ ul{
     list-style-type: none;
 }
 
+.btn, .aside-btn, .aside__block_four-btn, .before__footer-btn, .footer__btn, .logo{
+    cursor: pointer;
+}
+
 .container{
     max-width: 1440px;
     padding: 0 120px;
