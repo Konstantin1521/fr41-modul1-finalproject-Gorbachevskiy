@@ -127,26 +127,26 @@ header{
     margin-top: 16px;
     margin-bottom: 54px;   
     gap: 9px;
+    position: relative;
+}
+
+.after__header,.main__header, .after__header-one{
+    align-self: center;
+}
+
+.after__header_two, .after__header-three{
+    display: none;
 }
 
 .main_linner-img{
-    margin-right: 8px;
-    margin-left: 3px;
-    padding: 0;
+    width: 16px;
+    height: 16px;
 }
 
 .main__text{
     display: flex;
     justify-content: start;
     gap: 8px;
-    margin-bottom: 24px;
-}
-
-.main__header{
-    margin-bottom: 16px;
-}
-
-.main__img-state{
     margin-bottom: 24px;
 }
 
@@ -322,6 +322,7 @@ header{
 
 .menu__finisf-list{
     display: flex;
+    margin-top: 20px;
     gap: 8px;
     flex-wrap: wrap;
 }
@@ -356,6 +357,7 @@ header{
 }
 
 .before__footer{
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -371,10 +373,6 @@ header{
     flex-direction: column;
     gap: 24px;
     margin-bottom: 32px;
-}
-
-.before__footer-background_and_img{
-    margin-right: 184px;
 }
 
 .aside{
@@ -425,10 +423,6 @@ header{
     top: 30px;
 }
 
-.aside__block-btn, .aside__block-text{
-    margin-top: 24px;
-}
-
 .aside__card_one-header{
     text-align: center;
     font-family: Montserrat;
@@ -470,6 +464,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
 }
 
 .aside__block-two{
@@ -483,6 +478,26 @@ header{
     border-radius: 16px;
     border: 1px solid #DEDEDE;
     background:#ffffff;
+    position: relative;
+}
+
+.upper__block-one, .upper__block-two {
+    top: 16px;
+    left: 16px;
+    position: absolute;
+}
+.upper__block-two{
+    margin-top: 25px;
+}
+
+.upper__block-one, .upper__block-two{
+    display: flex;
+    padding: 0px 6px;
+    align-items: center;
+    gap: 4px;
+
+    border-radius: 6px;
+    background: rgba(243, 244, 248, 0.70);
 }
 
 .aside__block-two{
@@ -667,6 +682,22 @@ header{
     right: 0;
 }
 
+.aside__block-circle{
+    position: absolute;
+    right: 15px;
+    margin-top: 3100px;
+}
+
+.before__footer-img{
+    padding-left: 100px;
+    margin: 0;
+}
+
+.before__footer-img_two{
+    position: absolute;
+    right: 0px;
+}
+
 /* footer */
 
 .footer{
@@ -681,7 +712,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    /* padding-bottom: 15px; */
+    margin-bottom: 25px;
 }
 
 
@@ -788,7 +819,7 @@ header{
     display: flex;
     gap: 48px;
     /* border-top: 1px solid #9D9D9D; */
-    margin-top: 5px; 
+
 }
 
 .footer__info-text{

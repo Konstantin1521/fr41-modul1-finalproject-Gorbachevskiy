@@ -81,6 +81,7 @@ header{
     font-size: 16px;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .menu__img{
@@ -227,7 +228,7 @@ header{
     position: relative;
 }
 
-.qqqwww_one, .qqqwww_two{
+.upper__block-one, .upper__block-two{
     display: flex;
     position: absolute;
     top: 8px;
@@ -239,9 +240,10 @@ header{
     border: 1px solid #C1C5CD;
     background: rgba(255, 255, 255, 0.70);
     gap: 8px;
+    cursor: pointer;
 }
 
-.qqqwww_two{
+.upper__block-two{
     top: 40px;
     left: 0px;
 }
@@ -261,11 +263,6 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 24px;
-}
-
-.maint__hero-card_one-block1, .maint__hero-card_two-block1{
-    max-width: 588px;
-    max-height: 240px;
 }
 
 .maint__hero-card_one-block2{
